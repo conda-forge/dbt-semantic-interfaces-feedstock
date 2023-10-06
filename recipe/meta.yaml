@@ -22,7 +22,7 @@ requirements:
   run:
     - python >=3.8
     - pydantic >=1.10,<2.dev0
-    - jsonschema >=3.0,<4.dev0
+    - jsonschema >=4.0,<5.dev0
     - pyyaml >=6.0,<7.dev0
     - more-itertools >=8.0,<9.dev0
     - jinja2 >=3.0,<4.dev0
