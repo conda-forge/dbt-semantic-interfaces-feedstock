@@ -3,7 +3,7 @@ ace:
 antic:
 - '0.2'
 cdt_name:
-- cos7
+- conda
 channel_sources:
 - conda-forge
 channel_targets:
