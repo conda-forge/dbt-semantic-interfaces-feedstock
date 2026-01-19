@@ -1,5 +1,5 @@
 {% set name = "dbt-semantic-interfaces" %}
-{% set version = "0.10.2" %}
+{% set version = "0.10.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dbt_semantic_interfaces-{{ version }}.tar.gz
-  sha256: 2bf934ce6ae8e31e57aec87c191996a1065985a558c86c1991d896f62bb6831f
+  sha256: 1c9a562b862381eb1f6f8ca9feaad49019739529bbe8f7f8c2bbad0433dd8ca6
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ requirements:
     - pyyaml >=6.0,<7
     - more-itertools >=8.0,<11.0
     - jinja2 >=3.1.6,<4
-    - click >=7.0,<8.3
+    - click >=7.0,<8.4
     - python-dateutil >=2.0,<3
     - importlib-metadata <9,>=6.0
     - typing-extensions >=4.4,<5
